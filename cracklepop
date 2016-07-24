@@ -1,0 +1,16 @@
+low = 1
+high = 101
+
+for i in range(low, high):
+
+    if i % 3 == 0 and i % 5 == 0:
+        print "Crackle PoP!"
+
+    elif i % 3 == 0:
+        print "Crackle..."
+
+    elif i % 5 == 0:
+        print "PoP!"
+
+    else:
+        print i
